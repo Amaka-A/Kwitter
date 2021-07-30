@@ -1,17 +1,15 @@
-
-//ADD YOUR FIREBASE LINKS
 var firebaseConfig = {
-  apiKey: "AIzaSyB3eVxAXHduQ78f2cMFPPlWyEH8W8v3DX8",
-  authDomain: "kwitter1-e7fe1.firebaseapp.com",
-  databaseURL: "https://kwitter1-e7fe1-default-rtdb.firebaseio.com",
-  projectId: "kwitter1-e7fe1",
-  storageBucket: "kwitter1-e7fe1.appspot.com",
-  messagingSenderId: "452002292291",
-  appId: "1:452002292291:web:058930f3839771db572af6",
-  measurementId: "G-C67K1QK7KP"
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+    apiKey: "AIzaSyBJ3tzWi0-RPj9QnWsScoMyVQ9Rb1LQbTA",
+    authDomain: "kwitter-c363e.firebaseapp.com",
+    databaseURL: "https://kwitter-c363e-default-rtdb.firebaseio.com",
+    projectId: "kwitter-c363e",
+    storageBucket: "kwitter-c363e.appspot.com",
+    messagingSenderId: "692186094505",
+    appId: "1:692186094505:web:7a25a62b389bb5191602b8",
+    measurementId: "G-YJW8JD953W"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
 
 user_name=localStorage.getItem("user_name");
 document.getElementById("user_name").innerHTML = "Welcome " + user_name + "!";
